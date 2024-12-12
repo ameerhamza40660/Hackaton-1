@@ -1,0 +1,250 @@
+.sign-in-btn{
+    background-color: #000;
+    color: aliceblue;
+
+}
+.black-btn{
+    background-color: #000;
+    color: aliceblue;
+}
+.container-ameer{
+display: flex;
+ border: 2px solid black 
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+  }
+.box-1{ 
+    border-radius: 12px;
+    margin: 5px 5px ;
+    border: 2px solid black;
+}
+.box-2{ 
+    border-radius: 12px;
+    margin: 5px 5px ;
+    border: 2px solid black;
+}
+.box-3{ 
+    border-radius: 12px;
+    margin: 5px 5px ;
+    border: 2px solid black;
+}
+.div5{
+    position: relative;
+    left: 550px;
+    top: 25px;
+   }
+   .div6{
+      position: relative;
+      left: 550px;
+      top: 20px;
+      font-size: 25px;
+      
+   }
+   .div6>p{
+      position: relative;
+      line-height: 40px;
+      top: 20px;
+   }
+   .div7{
+      position: absolute;
+      left: 30px
+   }
+   .div8{
+          position: relative;
+          top: 120px;
+          justify-content: center;
+          align-items: center;
+          display: flex;
+          flex-direction: column;
+        
+   }
+  .container-ameerh{
+    display: flex;
+    gap: 60px;
+  }
+   /* CSS for the footer */
+.footer {
+    background-color: #f8f9fa;
+    padding: 2rem;
+    font-family: Arial, sans-serif;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2rem;
+  }
+  
+  .brand-section {
+    flex: 1;
+    max-width: 300px;
+  }
+  
+  .brand-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .vision {
+    font-size: 0.9rem;
+    color: #6c757d;
+    margin-bottom: 1rem;
+  }
+  .copyright {
+    font-size: 0.8rem;
+    color: #adb5bd;
+  }
+  
+  .newsletter-section {
+    flex: 1;
+    max-width: 300px;
+  }
+  
+  .newsletter-form {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 1rem;
+  }
+  
+  .newsletter-form input {
+    flex: 1;
+    padding: 0.5rem;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    font-size: 0.9rem;
+  }
+  
+  .newsletter-form button {
+    padding: 0.5rem 1rem;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+   
+    cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.newsletter-form button:hover {
+  background-color: #444;
+}
+
+.menu-section {
+  flex: 1;
+  max-width: 200px;
+  display: flex;
+  gap: 2rem;
+}
+
+.quick-menu, .resources {
+  flex: 1;
+}
+
+.quick-menu h4, .resources h4 {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.quick-menu ul, .resources ul {
+  list-style: none;
+  padding: 0;
+}
+
+.quick-menu li, .resources li {
+  margin-bottom: 0.5rem;
+}
+.quick-menu a, .resources a {
+    text-decoration: none;
+    color: #000;
+    font-size: 0.9rem;
+  }
+  
+  .quick-menu a:hover, .resources a:hover {
+    color: #007bff;
+  }
+  
+  .social-icons {
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .social-icons a {
+    font-size: 1.2rem;
+    color: #000;
+  }
+  
+  .social-icons a:hover {
+    color: #007bff;
+  }
+  
+  /* Media Queries for Different Screen Sizes */
+@media (max-width: 991px) {
+    .main-header-content h1 {
+      font-size: 1.8rem;
+    }
+  
+    .main-header-content p {
+      font-size: 0.9rem;
+    }
+  
+    .btn-box button {
+      padding: 8px 16px;
+      font-size: 0.9rem;
+    }
+  
+    .navbar-nav {
+      flex-direction: column;
+    }
+  
+    .nav-item {
+      margin-bottom: 0.5rem;
+    }
+  
+    .image-box img {
+      width: 100%;
+    }
+  }
+  @media (max-width: 767px) {
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .brand-section, .newsletter-section, .menu-section, .social-icons {
+    margin-bottom: 1rem;
+  }
+
+  .quick-menu ul, .resources ul {
+    text-align: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .main-header-content h1 {
+    font-size: 1.5rem;
+  }
+
+  .main-header-content p {
+    font-size: 0.8rem;
+  }
+
+  .btn-box button {
+    padding: 6px 12px;
+    font-size: 0.8rem;
+  }
+
+  .container-ameerh .box {
+    margin-bottom: 1rem;
+  }
+
+  .footer-content {
+    gap: 1rem;
+  }
+}
